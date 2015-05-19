@@ -1,0 +1,6 @@
+https://www.sparkfun.com/products/12866
+https://oshpark.com/shared_projects/Mz40o0aN
+http://fab.fritzing.org/how-to
+http://fritzing.org/pcb-custom-shape/
+https://github.com/upverter/schematic-file-converter/issues/190
+

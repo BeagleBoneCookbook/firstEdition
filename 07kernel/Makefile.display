@@ -1,0 +1,8 @@
+obj-m := hello.o
+KDIR  := /lib/modules/$(shell uname -r)/build
+
+all:
+<TAB>make -C $(KDIR) M=$$PWD
+	
+clean:
+<TAB>rm hello.mod.c hello.o modules.order hello.mod.o Module.symvers

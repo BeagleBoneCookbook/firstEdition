@@ -1,0 +1,5 @@
+var controller = ["P9_11", "P9_13", "P9_15", "P9_17"];
+var states = [[1,1,0,0], [0,1,1,0], [0,0,1,1], [1,0,0,1]];
+var curState = 0;   // Current state
+var ms = 100,       // Time between steps, in ms
+    max = 22,       // Number of steps to turn before turning around

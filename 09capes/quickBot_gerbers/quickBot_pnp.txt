@@ -1,0 +1,34 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=quickBot
+*Date=02:40:50
+*CreatedBy=Fritzing 0.9.0b.06.11.da4e
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;20k;THT;24.7945;-18.4616;0;Bottom;R10
+2;;THT;26.0645;-50.2116;0;Bottom;IC1
+3;1;THT;12.0945;-26.0816;0;Bottom;R1
+4;;;36.2245;-35.6066;0;Bottom;JACK2
+5;;screwterminal-3.5mm-3_lock.007s;38.6322;-10.7415;0;Bottom;JP1
+6;;;34.9545;-50.2116;0;Bottom;M1
+7;;;40.0345;-26.0816;-90;Bottom;J4
+8;20k;THT;24.7945;-26.0816;0;Bottom;R2
+9;;;27.6553;-2.80091;0;Bottom;TXT5
+10;;screwterminal-3.5mm-3_lock.007s;38.6322;-18.3615;0;Bottom;JP2
+11;;;27.3599;-43.1885;90;Bottom;BeagleBone1
+12;;;6.4008;-65.9384;0;Bottom;Via2
+13;10k;THT;12.0945;-10.8416;0;Bottom;R5
+14;;;9.4488;-29.972;0;Bottom;Via3
+15;20k;THT;24.7945;-10.8416;0;Bottom;R9
+16;10k;THT;12.0945;-18.4616;0;Bottom;R6
+17;;;47.8536;-54.356;0;Bottom;Via1
+18;;;17.1745;-50.2116;180;Bottom;M2
+19;;;13.1064;-63.5;0;Bottom;Via4
