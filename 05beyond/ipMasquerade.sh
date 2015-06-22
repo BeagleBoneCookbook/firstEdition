@@ -16,16 +16,7 @@ hostAddr=192.168.7.1
 beagleAddr=192.168.7.2
 ip_forward=/proc/sys/net/ipv4/ip_forward
 
-if [ `cat $ip_forward` == 0 ]
-  then
-    echo "You need to set IP forwarding. Edit /etc/sysctl.conf using:"
-    echo "$ sudo nano /etc/sysctl.conf"
-    echo "and uncomment the line   \"net.ipv4.ip_forward=1\""
-    echo "to enable forwarding of packets. Then run the following:"
-    echo "$ sudo sysctl -p"
-    exit 1
-  else
-    echo "IP forwarding is set on host."
-fi
 # Set up IP masquerading on the host so the bone can reach the outside world
 sudo iptables -t nat -A POSTROUTING -s $beagleAddr -o $interface -j MASQUERADE
+# set IP forwarding
+sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
