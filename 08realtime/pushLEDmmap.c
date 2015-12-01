@@ -15,7 +15,7 @@
 #include "pushLEDmmap.h"
 
 // Global variables
-int keepgoing = 1;    // Set to 0 when Ctrl-c is pressed
+volatile int keepgoing = 1;    // Set to 0 when Ctrl-c is pressed
 
 // Callback called when SIGINT is sent to the process (Ctrl-C)
 void signal_handler(int sig) {
